@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5 - Form nhập thông tin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        fieldset {
+            border: 2px solid gray;
+            margin-bottom: 15px;
+            padding: 10px;
+            width: 500px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 250px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <!-- Thông tin người gửi -->
+        <fieldset>
+            <legend>THÔNG TIN NGƯỜI GỬI</legend>
+            <label>Họ tên:</label>
+            <input type="text" placeholder="Nhập họ tên"><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Nhập email"><br>
+
+            <label>Điện thoại:</label>
+            <input type="text" placeholder="Nhập số điện thoại"><br>
+
+            <label>Tỉnh/TP:</label>
+            <select>
+                <option>TP.HCM</option>
+                <option>Hà Nội</option>
+                <option>Huế</option>
+                <option>Đà Nẵng</option>
+                <option>Quảng Ninh</option>
+                <option>Cần Thơ</option>
+            </select><br>
+
+            <label>Quận:</label>
+            <select>
+                <option>Quận 1</option>
+                <option>Quận 2</option>
+                <option>Quận 3</option>
+                <option>Quận Tân Phú</option>
+                <option>Quận Tân Bình</option>
+                <option>Quận Thủ Đức</option>
+            </select>
+        </fieldset>
+
+        <!-- Thông tin người nhận -->
+        <fieldset>
+            <legend>THÔNG TIN NGƯỜI NHẬN</legend>
+            <label>Họ tên:</label>
+            <input type="text" placeholder="Nhập họ tên"><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Nhập email"><br>
+
+            <label>Điện thoại:</label>
+            <input type="text" placeholder="Nhập số điện thoại"><br>
+
+            <label>Tỉnh/TP:</label>
+            <select>
+                <option>TP.HCM</option>
+                <option>Hà Nội</option>
+                <option>Huế</option>
+                <option>Đà Nẵng</option>
+                <option>Quảng Ninh</option>
+                <option>Cần Thơ</option>
+            </select><br>
+
+            <label>Quận:</label>
+            <select>
+                <option>Quận 1</option>
+                <option>Quận 2</option>
+                <option>Quận 3</option>
+                <option>Quận Tân Phú</option>
+                <option>Quận Tân Bình</option>
+                <option>Quận Thủ Đức</option>
+            </select>
+        </fieldset>
+
+        <input type="submit" value="Gửi Thông Tin">
+    </form>
+</body>
+</html>
